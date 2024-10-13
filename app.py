@@ -54,7 +54,7 @@ chain = (
 )
 
 # Load and split documents
-urls = ["https://www.meraevents.com/faq", "https://www.meraevents.com/pricing"]
+urls = ["url1", "url2"]
 documents = load_and_split_documents(urls)
 vectorstore = setup_vector_store(documents)
 
